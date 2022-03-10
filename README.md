@@ -12,10 +12,11 @@
 
 ![Spring boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white)
-
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=IntelliJ%20IDEA&logoColor=white)
 ![VISUAL STUDIO CODE](https://img.shields.io/badge/VISUAL%20STUDIO%20CODE-007ACC?style=flat-square&logo=VISUAL%20STUDIO%20CODE&logoColor=white)
 
+
+![Inhye-world's GitHub stats](https://github-readme-stats.vercel.app/api?username=Inhye-world&show_icons=true&theme=nord)
 <!--
 **inhye-world/inhye-world** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
