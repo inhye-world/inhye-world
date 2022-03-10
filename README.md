@@ -1,4 +1,4 @@
-### Hi there 👋
+### INHYE RYU 🙂
 
 <!--
 **inhye-world/inhye-world** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
