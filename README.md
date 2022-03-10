@@ -18,6 +18,7 @@
 ![VISUAL STUDIO CODE](https://img.shields.io/badge/VISUAL%20STUDIO%20CODE-007ACC?style=flat-square&logo=VISUAL%20STUDIO%20CODE&logoColor=white)
 
 
+### 💪stats
 ![Inhye-world's GitHub stats](https://github-readme-stats.vercel.app/api?username=Inhye-world&show_icons=true&theme=nord)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=avocadoxxi)](https://solved.ac/avocadoxxi/)
 <!--
