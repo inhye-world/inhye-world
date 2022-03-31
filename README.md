@@ -1,4 +1,5 @@
 # INHYE RYU 🙂
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=50&section=header&text=¡Hola!%20soy%20INHYEWORLD&fontSize=40)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Finhye-world%2Finhye-world&count_bg=%23ACBD98&title_bg=%235F7A61&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
