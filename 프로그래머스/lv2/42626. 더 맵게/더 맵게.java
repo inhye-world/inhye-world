@@ -14,12 +14,8 @@ class Solution {
         }
         
         //배열에서 가장 맵지 않은 음식과 그다음으로 안매운 음식을 찾는다.
-        while(cnt < scoville.length){
-            if(!q.isEmpty()){
+        while(q.size() > 1 && q.peek() < K){
                 if(q.peek() >= K){
-                    break;
-                }else if(q.peek() < K && q.size() == 1){
-                    cnt = -1;
                     break;
                 }
 
@@ -31,8 +27,12 @@ class Solution {
 
                 q.add(mix);
                 cnt++;
-            }
         }
+    
+        if(q.peek() < K && q.size() == 1){
+            cnt = -1;
+        }
+        
         return cnt;
     }
 }
