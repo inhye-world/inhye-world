@@ -1,32 +1,46 @@
-import java.util.Scanner;
-import java.util.*;
+import java.io.*;
 
-class Main{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int[] P = new int[N];
-        int[] time = new int[N];
-        int index = 1;
-        int answer = 0;
-        
-        //각 사람의 돈 인출하는데 걸리는 시간
-        for(int i = 0; i < N; i++){
-            P[i] = sc.nextInt();
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int N = Integer.parseInt(br.readLine());
+        int[] arr = new int[N];
+        int[] sum = new int[N];
+        String[] str = br.readLine().split(" ");
+
+        for (int i = 0; i < str.length; i++) {
+            arr[i] = Integer.parseInt(str[i]);
         }
-        
-        Arrays.sort(P);
-        time[0] = P[0];
-        while(index < N){
-            for(int i = 1; i < N; i++){
-                time[index] = time[index-1] + P[index];   
-                index++;
+
+        for(int i = 1; i < N; i++) {
+            int insert_point = i;
+            int insert_value = arr[i];
+            for (int j = i - 1; j >= 0; j--) {
+                if(arr[j] < arr[i]){
+                    insert_point = j+1;
+                    break;
+                }
+                if(j == 0){
+                    insert_point = 0;
+                }
             }
+            for(int j = i; j > insert_point; j--){
+                arr[j] = arr[j-1];
+            }
+            arr[insert_point] = insert_value;
         }
+
+        sum[0] = arr[0];
+        for(int i = 1; i < N; i++){
+            sum[i] = sum[i-1] + arr[i];
+        }
+
+        int result = 0;
         for(int i = 0; i < N; i++){
-            answer += time[i];
+            result += sum[i];
         }
-        
-        System.out.println(answer);
+
+        System.out.print(result);
     }
 }
